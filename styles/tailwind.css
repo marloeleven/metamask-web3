@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  Set default styling
+*/
+
+html,
+body,
+body>div:first-child {
+  @apply h-full;
+}
+
+:root {
+  --error: #d32f2f;
+  --primary: #184583;
+  --neutral: #dfdfdf;
+  --neutral-status: #cbcbcb;
+}
