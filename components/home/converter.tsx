@@ -50,7 +50,7 @@ export default function Converter() {
           Crypto converter
         </Typography>
         <TextField
-          label="Nep"
+          label="NEP"
           variant="outlined"
           type="number"
           placeholder="0.00"

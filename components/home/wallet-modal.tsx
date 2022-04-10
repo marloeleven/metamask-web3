@@ -19,7 +19,7 @@ import { injected } from './hooks';
 
 const LABEL = {
   accountId: 'Account',
-  chainId: 'Chain Id',
+  chainId: 'Chain ID',
   balance: 'Balance',
 };
 
