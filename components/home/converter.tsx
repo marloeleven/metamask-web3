@@ -24,7 +24,6 @@ const onClickSelect = (event: MouseEvent<HTMLInputElement>) =>
 function ConnectionStatus() {
   const { active, error } = useWeb3React();
 
-  console.log(error);
   return (
     <div
       className={clsx('absolute right-4 top-2 h-4 w-4 rounded shadow-md', {
